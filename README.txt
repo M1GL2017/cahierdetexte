@@ -22,7 +22,7 @@ git clone https://github.com/M1GL2017/cahierdetexte.git
 git add nomFichier
 
 #Commit dans "head"
-git commit -m "[message descriptif]"
+git commit -m "message descriptif"
 
 #Récupère tout l'historique du dépôt
 git pull origin
