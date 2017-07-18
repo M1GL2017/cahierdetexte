@@ -19,7 +19,7 @@ git config --global color.ui auto
 git clone https://github.com/M1GL2017/cahierdetexte.git
 
 #Ajout du fichier README.txt dans "index"
-git add [README.txt]
+git add nomFichier
 
 #Commit dans "head"
 git commit -m "[message descriptif]"
@@ -27,6 +27,6 @@ git commit -m "[message descriptif]"
 #Récupère tout l'historique du dépôt
 git pull origin
 
-Envoie tous les commits de la branche locale vers GitHub [alias] [branche] 
-#git push -u origin master 
+#Envoie tous les commits de la branche locale vers GitHub
+git push -u origin master 
 
