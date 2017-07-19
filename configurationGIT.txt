@@ -1,0 +1,18 @@
+1) Installer PuTTY et extraire les fihiers
+2) Installet GIT for Windows (Git-2.13.3-64-bit.exe)
+3) Configurer le client GIT
+  	3.a) Lancer GIT Bash
+	3.b) Renseigner le nom d'utilisateur : git config -- global user.name "nom_utilisateur"
+	3.c) Renseigner l'email : git config -- global user.email email_utilisateur
+4) Créer le répertoire "GIT" dans le lecteur C : mkdir c:/GIT
+5) Se déplacer dans ce répertoire GIT
+6) Cloner le repertoire du serveur (uniquement pour la prmièrère fois): git clone ssh://nom_utilisateur@10.2.1.8/var/git/cahierdetexte
+3) Renseigner le server distant : git remote add origin ssh://nom_utilisateur@10.2.1.8/var/git/cahierdetexte
+7) Envoyer un fichier au niveau du serveur : 
+	- Se déplacer dans le répertoire cahierdetexte
+ 	- git add nom_fichier (Après avoir créé ou modifié un fichier)
+	- git commit -m "nom_numero_commit" (Ex : git commit -m "mndiaye_001")
+	- git pull
+	- git push -u origin master
+	
+
